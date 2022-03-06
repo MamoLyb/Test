@@ -37,13 +37,13 @@ $(document).ready(function() {
 
 
 	function getDayInfo(date){
-		if (arr[0] >= 22) {
+		if (arr[1] >= 22) {
     		w = 4;
     	}
-    		else if(arr[0] >= 15 && arr[0] <= 21 ){
+    		else if(arr[1] >= 15 && arr[1] <= 21 ){
     		w = 3;
     	}
-    		else if(arr[0] >= 8 && arr[0] <= 14 ){
+    		else if(arr[1] >= 8 && arr[1] <= 14 ){
     		w = 2;
     	}
     		else{
